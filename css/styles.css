@@ -114,6 +114,8 @@ margin: 0 auto;
 
 .business{
     background-color: #2e2f42;
+    text-align: center;
+    padding: 188px 0;
 }
 
 .business-h{
@@ -125,13 +127,22 @@ margin: 0 auto;
     color: #fff;
 }
 .button-business{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
-    background-color: #4d5ae5;
-    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   color: #ffffff;
+   display: block;
+   margin-top: 48px;
+   margin-right: auto;
+   margin-left: auto;
+   min-width: 169px;
+   height: 56px;
+   border: none;
+   background-color: #4d5ae5;
+   border-radius: 4px;
+   cursor: pointer;
 }
 .button-business:focus, .button-business:hover {
     background-color: #404BBF;
