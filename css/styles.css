@@ -159,8 +159,8 @@ padding-top: 120px;
 padding-bottom: 120px;
 }
 
-base-h-two{
-  position: absolute;
+.base-h-two{
+   position: absolute;
    width: 1px;
    height: 1px;
    margin: -1px;
@@ -171,6 +171,15 @@ base-h-two{
    clip: rect(0 0 0 0);
    overflow: hidden;
 }
+
+   .base-h-two-two{
+   display: flex;
+   gap: 24px;
+   }
+
+   .base-h-two-three{
+   width: calc((100% - 72px) / 4);
+   }
 
 .base-h-three{
     font-weight: 500;
